@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'poppins';
+    background-color: #e5e5e5;
+}
+
+.body {
+    background-color: #e5e5e5;
+}
+
+header {
+    width: 100%;
+    height: 185px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 100%;
+    height: 138px;
+    position: absolute;
+    top: 30px;
+}
+
+.container p {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: 53px;
+    left: 180px;
+}
+
+.img {
+    position: absolute;
+    left: 40px;
+    top: 8px;
+}
+
+img {
+    height: 120px;
+}
+
+.txt {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 58px;
+    top: 28px;
+}
+
+#btn {
+    width: 195px;
+    height: 52px;
+    font-size: 20px;
+    font-family: 'poppins';
+    text-align: center;
+    color: #fff;
+    background-color: rgba(92, 95, 97, 0.73);
+    border: 1px solid rgba(92, 95, 97, 0.73);
+    border-radius: 40px;
+    position: absolute;
+    right: 50px;
+
+}
+
+.datetime {
+    color: white;
+    position: absolute;
+    top: 90px;
+    right: 45px;
+}
+
+.date {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last child) {
+    position: relative;
+    margin: 0.6px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.time span:last-child {
+    padding: 0px 3px;
+    text-transform: uppercase;
+}

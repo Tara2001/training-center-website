@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>process1</title>
+</head>
+<link rel="stylesheet" href="1.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Staatliches&display=swap"
+    rel="stylesheet">
+
+<script>
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML = dt;
+</script>
+
+<body onload="initClock()">
+    <header>
+        <div class="container">
+            <p>FOOD SAFETY AND HYGIENE</p>
+
+            <div class="img">
+                <img src="food-safety 1.png">
+            </div>
+            <div class="txt">
+                Today's Date
+            </div>
+    </header>
+    <button id="btn">
+        SUBMIT
+    </button>
+    <div class="datetime">
+        <div class="date">
+            <span id="daynum">00</span>
+            <span id="month">MONTH</span>
+            <span id="year">YEAR</span>
+        </div>
+        <div class="time">
+            <span id="hours" style="padding: 0px 3px;">00</span>:
+            <span id="minutes" style="padding: 0px 3px;">00</span>:
+            <span id="seconds" style="padding: 0px 3px;">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function updateClock() {
+            var now = new Date();
+            var mo = now.getMonth(),
+                dnum = now.getDate(),
+                yr = now.getFullYear(),
+                hou = now.getHours(),
+                min = now.getMinutes(),
+                sec = now.getSeconds(),
+                pe = "AM";
+
+            if (hou == 0) {
+                hou = 12;
+            }
+            if (hou > 12) {
+                hou = hou - 12;
+                pe = "PM";
+            }
+            Number.prototype.pad = function (digits) {
+                for (var n = this.toString(); n.length < digits; n = 0 + n);
+                return n;
+            }
+
+            var months = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+            var ids = ["daynum", "month", "year", "hours", "minutes", "seconds", "period"];
+
+            var values = [months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+
+            for (var i = 0; i < ids.length; i++) {
+                document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+            }
+        }
+
+        function initClock() {
+            updateClock();
+            window.setInterval("updateClock()", 1);
+        }
+    </script>
+ 
+</body>
+
+</html>

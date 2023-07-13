@@ -1,0 +1,594 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'poppins';
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+#btn {
+    padding: 0% 0%;
+    height: 27%;
+    color: white;
+    position: relative;
+    left: 98%;
+}
+
+#container {
+    padding: 0%;
+    width: 100%;
+    height: 78%;
+    background-color: #E5E5E5;
+    ;
+}
+
+#row {
+    width: 100%;
+    height: 80%;
+    margin-left: 0%;
+}
+
+#a {
+    padding-top: 6%;
+    height: 100%;
+    font-size: 18px;
+    border-left: 0.1px solid rgba(0, 0, 0, 0.1);
+    ;
+    border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+    ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.nav-link {
+    font-family: 'poppins';
+}
+
+#a:hover{
+    text-decoration: none;
+    color: darkgray;
+    border-bottom: 5px solid rgba(19, 73, 110, 1);
+}
+
+#a:hover {
+    text-decoration: none;
+    color: darkgray;
+    border-bottom: 5px solid rgba(19, 73, 110, 1);
+}
+
+.NA img {
+    width: 100%;
+}
+
+#container0 {
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.click4 {
+    padding: 0%;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+
+.NA {
+    color: #F1FAFF;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.a4 {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+}
+
+.container4 {
+    background-color: #E5E5E5;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main4 {
+    width: 100%;
+    height: 60px;
+    word-spacing: 10px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.box4 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+#space {
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.img {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.1s ease;
+}
+
+#p {
+    margin-bottom: 5%;
+}
+
+.box4 .img:hover {
+    text-size-adjust: 20px;
+    color: blue;
+    transform: scale(1.1);
+}
+
+#mymodal {
+    padding: 0%;
+}
+
+#md {
+    padding: 0% 0%;
+    height: 90%;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+button {
+    padding: 0%;
+}
+
+#img1 {
+    padding: 2% 0%;
+    width: 75%;
+}
+
+#img2 {
+    width: 35%;
+}
+
+.para {
+    margin: 8% 25%;
+    padding: 2%;
+    background-color: rgba(19, 73, 110, 0.75);
+    border-radius: 50px;
+}
+
+.con {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.con:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width : 1200px) {
+    #btn{
+        position: relative;
+        left: 97.5%;
+    }
+    
+    #a {
+        padding-top: 7%;
+        font-size: 16px;
+    }
+
+    .NA {
+        font-size: 50px;
+    }
+
+    .a4 {
+        position: absolute;
+        top: 47%;
+    }
+
+    .main4 {
+        font-size: 24px;
+    }
+
+    .img {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    #img {
+        width: 95%;
+    }
+
+    #space {
+        padding: 0%;
+    }
+
+    #md {
+        padding: 0% 2%;
+    }
+
+    #img1 {
+        width: 78%;
+    }
+
+    #img2 {
+        width: 40%;
+    }
+
+    .para {
+        margin: 8% 22%;
+    }
+
+    .con{
+        font-size: 17px;
+    }
+}
+
+@media (min-width : 1174px) and (max-width : 1199px) {
+    #a {
+        padding-top: 7%;
+        font-size: 16px;
+    }
+
+    .NA {
+        font-size: 50px;
+    }
+
+    .a4 {
+        position: absolute;
+        top: 47%;
+    }
+
+    .main4 {
+        font-size: 24px;
+    }
+
+    .img {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    #img {
+        width: 95%;
+    }
+
+    #space {
+        padding: 0%;
+    }
+
+    #md {
+        padding: 0% 4%;
+    }
+
+    #img2 {
+        width: 40%;
+    }
+
+    .para {
+        margin: 7% 25%;
+    }
+
+    .con {
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 1025px) and (max-width : 1173px) {
+    #btn{
+        position: relative;
+        left: 97.5%;
+    }
+
+    #a {
+        padding-top: 7%;
+        font-size: 16px;
+    }
+
+    .NA {
+        font-size: 50px;
+    }
+
+    .a4 {
+        position: absolute;
+        top: 43%;
+        left: 30%;
+    }
+
+    .main4 {
+        font-size: 22px;
+    }
+
+    .img {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #img {
+        width: 85%;
+    }
+
+    #space {
+        padding: 0%;
+        font-size: 14px;
+    }
+
+    #md {
+        padding: 1% 5%;
+    }
+
+    #img1 {
+        width: 72%;
+    }
+
+    #img2 {
+        width: 38%;
+    }
+
+    .con {
+        font-size: 17px;
+    }
+}
+
+@media (min-width : 939px) and (max-width : 1024px) {
+    #btn{
+        position: relative;
+        left: 97.5%;
+    }
+
+    #row{
+        height: 78%;
+    }
+
+    #a{
+        padding: 8%;
+        font-size: 15px;
+    }
+
+    .NA{
+        font-size: 45px;
+    }
+
+    .a4{
+        position: absolute;
+        top: 42%;
+        left: 32%;
+    }
+
+    .main4{
+        font-size: 20px;
+    }
+
+    .img{
+        margin: 10px;
+        padding: 10px 0px;
+    }
+
+    #img{
+        width: 85%;
+    }
+
+    #space{
+        font-size: 85%;
+    }
+
+    #md {
+        padding: 2% 7%  ;
+    }
+
+    #img2 {
+        width: 40%;
+    }
+
+    .con {
+        font-size: 17px;
+    }
+}
+
+@media (min-width : 850px) and (max-width : 938px) {
+    #btn {
+        position: relative;
+        left: 97%;
+    }
+
+    #row {
+        height: 78%;
+    }
+
+    #a {
+        padding: 8%;
+        font-size: 15px;
+    }
+
+    .NA {
+        font-size: 45px;
+    }
+
+    .a4 {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+    }
+
+    .main4 {
+        font-size: 20px;
+    }
+
+    .img {
+        margin: 10px;
+        padding: 10px 0px;
+    }
+
+    #img {
+        width: 85%;
+    }
+
+    #space {
+        font-size: 85%;
+    }
+
+    .para {
+        margin: 8% 26%;
+    }
+
+    #md {
+        padding: 2% 7%;
+    }
+
+    #img1 {
+        width: 72%;
+    }
+
+    #img2 {
+        width: 37%;
+    }
+
+    .con{
+        font-size: 16px;
+    }
+}
+
+@media (min-width : 769px) and (max-width : 849px) {
+    #btn{
+        position: relative;
+        left: 96.5%;
+    }
+
+    #row{
+        height: 75%;
+    }
+
+    #a{
+        padding: 11%;
+        font-size: 13px;
+    }
+
+    .NA{
+        font-size: 40px;
+    }
+
+    .a4{
+        position: absolute;
+        top: 36%;
+        left: 30%;
+    }
+
+    .main4{
+        font-size: 18px;
+    }
+
+    .img{
+        margin: 0px;
+        padding: 25px 0px;
+    }
+
+    #img{
+        width: 75%;
+    }
+
+    #space{
+        font-size: 75%;
+    }
+    
+    #md {
+        padding: 2% 7%;
+    }
+
+    #img1 {
+        width: 70%;
+    }
+
+    #img2 {
+        width: 35%;
+    }
+
+    .para {
+        margin: 8% 28%;
+    }
+
+    .con {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 671px) and (max-width : 768px) {
+    #btn {
+        position: relative;
+        left: 96.5%;
+    }
+
+    #a {
+        padding-top: 16%;
+        font-size: 12px;
+    }
+
+    .NA {
+        font-size: 35px;
+    }
+
+    .a4 {
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+
+    .main4 {
+        font-size: 15px;
+    }
+
+    .img{
+        padding: 2% 0%;
+        margin: 0%;
+        width: 33%;
+    }
+
+    #img {
+        width: 50%;
+    }
+
+    #space {
+        font-size: 13px;
+    }
+
+    #p {
+        margin-bottom: 2%;
+    }
+
+    #md {
+        padding: 4% 10%;
+    }
+
+    .para {
+        margin: 8% 30%;
+    }
+
+    .con {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 420px) and (max-width : 670px) {
+    
+}

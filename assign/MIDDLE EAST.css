@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'poppins';
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+#btn {
+    padding: 0% 0%;
+    height: 27%;
+    color: white;
+    position: relative;
+    left: 98%;
+}
+
+#container {
+    padding: 0%;
+    width: 100%;
+    height: 78%;
+    background-color: #E5E5E5;
+    ;
+}
+
+#row {
+    width: 100%;
+    height: 80%;
+    margin-left: 0%;
+}
+
+#a {
+    padding-top: 6%;
+    height: 100%;
+    font-size: 18px;
+    border-left: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-right: 0.1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-family: 'poppins';
+}
+
+#a:hover {
+    text-decoration: none;
+    color: darkgray;
+    border-bottom: 5px solid rgba(19, 73, 110, 1);
+}
+
+#container0 {
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.ME img {
+    width: 100%;
+    height: 75vh;
+}
+
+.click2 {
+    padding: 0%;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.ME {
+    color: #F1FAFF;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 58px;
+
+}
+
+.a2 {
+    display: inline-block;
+    position: absolute;
+    top: 48%;
+    left: 37%;
+}
+
+.container2 {
+    background-color: #E5E5E5;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main2 {
+    width: 100%;
+    height: 60px;
+    word-spacing: 15px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.box2 {
+    padding-top: 4%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+#space {
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.img {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.1s ease;
+}
+
+#p {
+    margin-bottom: 5%;
+}
+
+.box2 .img:hover {
+    text-size-adjust: 20px;
+    color: blue;
+    transform: scale(1.1);
+}
+
+#mymodal {
+    padding: 0%;
+}
+
+#md {
+    padding: 0% 0%;
+    height: 90%;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+button {
+    padding: 0%;
+}
+
+#img1 {
+    padding: 2% 0%;
+    width: 73%;
+}
+
+#img2 {
+    width: 38%;
+}
+
+.para {
+    margin: 8% 25%;
+    padding: 2%;
+    background-color: rgba(19, 73, 110, 0.75);
+    border-radius: 50px;
+}
+
+.con {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.con:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width : 1200px) {
+    #a {
+        padding-top: 8%;
+       font-size: 16px; 
+    }
+
+    .ME {
+        font-size: 52px;
+    }
+
+    .main2 {
+        font-size: 22px;
+        top: 40px;
+    }
+
+    .box2 {
+        padding-top: 2%;
+    }
+
+    .img {
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    #img {
+        width: 90%;
+    }
+
+    #space {
+        font-size: 90%;
+    }
+
+    #md {
+        padding: 0% 3%;
+    }
+
+}
+
+@media (min-width : 1174px) and (max-width : 1199px) {
+    #a {
+        padding-top: 8%;
+       font-size: 16px; 
+    }
+
+    .ME {
+        font-size: 52px;
+    }
+
+    .a2 {
+        left: 36%;
+    }
+
+    .main2 {
+        font-size: 22px;
+        top: 40px;
+    }
+
+    .box2 {
+        padding-top: 2%;
+    }
+
+    .img {
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    #img {
+        width: 90%;
+    }
+
+    #space {
+        font-size: 90%;
+    }
+
+    #md {
+        padding: 0% 3%;
+    }
+}
+
+@media (min-width : 1025px) and (max-width : 1173px) {
+    #btn {
+        left: 97.5%;
+    }
+
+    #a {
+        padding-top: 8%;
+        font-size: 16px;
+    }
+
+    .ME {
+        font-size: 52px;
+    }
+
+    .a2 {
+        top: 49%;
+        left: 36%;
+    }
+
+    .main2 {
+        font-size: 22px;
+        top: 40px;
+    }
+
+    .box2 {
+        padding-top: 2%;
+    }
+
+    .img {
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    #img {
+        width: 95%;
+    }
+
+    #space {
+        font-size: 95%;
+    }
+
+    #md {
+        padding: 0% 3%;
+    }
+}
+
+@media (min-wdth : 850px) and (max-width : 1024px) {
+
+}
